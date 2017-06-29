@@ -1,4 +1,4 @@
-#include "kevlar/WIB/ColdataValidation.hh"
+#include "wibexport/ColdataValidation.hh"
 
 #include "art/Framework/Principal/Event.h"
 #include "art/Framework/Principal/Run.h"
@@ -32,7 +32,7 @@
 #include <chrono>
 
 
-namespace kevlar{
+namespace wibexport{
 
 
   ColdataValidation::ColdataValidation(fhicl::ParameterSet const & pSet):

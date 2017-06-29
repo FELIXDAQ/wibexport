@@ -18,7 +18,7 @@ flcdir  product_dir     fcl
 # Add the dependent product and version
 
 product          version
-framegen         v02_00_00
+FrameGen         v02_00_00
 wibexport        v01_00_00
 boost            v1_63_0a
 uboonecode       v06_38_00
@@ -28,7 +28,7 @@ end_product_list
 
 # We now define allowed qualifiers and the corresponding qualifiers for the dependencies.
 # Make a table by adding columns before "notes". 
-qualifier uboonecode  boost     framegen gcc  notes
+qualifier uboonecode  boost     FrameGen gcc  notes
 e14:debug e14:debug  e14:debug  e14:debug -nq-
 e14:opt   e14:opt    e14:opt    e14:opt -nq-
 e14:prof  e14:prof   e14:prof   e14:prof -nq-

@@ -19,7 +19,7 @@ namespace art{
 }
 
 
-namespace kevlar{
+namespace wibexport{
 
   class ColdataValidation : public art::EDProducer {
 
@@ -39,5 +39,5 @@ namespace kevlar{
 
 }
 
-DEFINE_ART_MODULE(kevlar::ColdataValidation)
+DEFINE_ART_MODULE(wibexport::ColdataValidation)
 #endif // ColdataValidation_hh_

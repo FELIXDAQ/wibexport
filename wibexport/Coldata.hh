@@ -19,7 +19,7 @@ namespace art{
 }
 
 
-namespace kevlar{
+namespace wibexport{
 
   class Coldata : public art::EDAnalyzer {
     std::string fProducerName;
@@ -40,5 +40,5 @@ namespace kevlar{
 
 }
 
-DEFINE_ART_MODULE(kevlar::Coldata)
+DEFINE_ART_MODULE(wibexport::Coldata)
 #endif // Coldata_hh_

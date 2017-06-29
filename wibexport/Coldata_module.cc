@@ -1,4 +1,4 @@
-#include "kevlar/WIB/Coldata.hh"
+#include "wibexport/Coldata.hh"
 
 #include "art/Framework/Principal/Event.h"
 #include "art/Framework/Principal/Run.h"
@@ -27,7 +27,7 @@
 #include <ctime>
 #include <chrono>
 
-namespace kevlar{
+namespace wibexport{
 
   class MotherNotFound: public std::exception
   {
